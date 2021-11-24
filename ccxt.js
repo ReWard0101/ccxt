@@ -95,6 +95,7 @@ const exchanges = {
     'coinone':                 require ('./js/coinone.js'),
     'coinspot':                require ('./js/coinspot.js'),
     'crex24':                  require ('./js/crex24.js'),
+    'cryptocom':               require ('./js/cryptocom.js'),
     'currencycom':             require ('./js/currencycom.js'),
     'delta':                   require ('./js/delta.js'),
     'deribit':                 require ('./js/deribit.js'),
