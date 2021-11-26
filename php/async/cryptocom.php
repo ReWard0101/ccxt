@@ -447,7 +447,7 @@ class cryptocom extends Exchange {
             'instrument_name' => $this->market_id($symbol),
         );
         if ($limit) {
-            $request->depth = $limit;
+            $request['depth'] = $limit;
         }
         $response = yield $this->publicGetPublicGetBook (array_merge($request, $params));
         // {

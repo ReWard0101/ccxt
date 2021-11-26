@@ -435,7 +435,7 @@ class cryptocom(Exchange):
             'instrument_name': self.market_id(symbol),
         }
         if limit:
-            request.depth = limit
+            request['depth'] = limit
         response = await self.publicGetPublicGetBook(self.extend(request, params))
         # {
         #     "code":0,
