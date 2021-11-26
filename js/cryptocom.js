@@ -68,8 +68,8 @@ module.exports = class cryptocom extends Exchange {
             },
             'urls': {
                 'logo': 'https://cryptocom.intercom-attachments-7.com/i/o/204082378/08c69fc201ae0fa30ca1ef83/47b-bC4xUjyLOT2Oo1NBITGS2W9hRSgSQ3avOH__QTDrYVJDpXYJ87wAIvHAc6-aWJ61M5dq8j1ebA2xfIkgkLX3dkoZ8DP3qbS84ZFFkUHDq22iV4dxAT1dxhQhWEFbwgOcI2f6',
-                'test': 'https://uat-api.3ona.co/v2',
-                'api': 'https://api.crypto.com/v2',
+                'test': 'https://uat-api.3ona.co/v2/',
+                'api': 'https://api.crypto.com/v2/',
                 'www': 'https://crypto.com/',
                 'referral': '',
                 'doc': 'https://exchange-docs.crypto.com/',
